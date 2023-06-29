@@ -8,13 +8,37 @@
 <body>
     <form action="">
 
-        <label for="email">Enter Email ID</label>
-        <input type="text" id="email">
+        <fieldset>
+            <legend>Html form dummy </legend>
+            <label for="email">Enter Email ID</label>
+        <input type="email" id="email">
         <br/><br/>
         <label for="password">Enter password</label>
-        <input type="text" id="password">
+        <input type="text" id="password"><br/><br/>
+
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name">
+
+        <label for="lastname">Last name</label>
+        <input type="text" id="lastname" placeholder="Enter your last name"><br><br>
+
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gen">
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gen"> <br><br>
+
+        <label for="selector1">Choose your favorite: </label>
+        <select name="Dishes" id="selector1">
+            <option value="Maggie">Maggie</option>
+            <option value="Kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+            <option value="numkeen">Numkeen</option>
+        </select><br><br>
+
+        <textarea name="textarea1" id="textarea1" cols="60" rows="5" placeholder="Write anything here"></textarea>
 
         <br/><br/>
         <input type="submit" value="Submit">
         <button>Submit</button>
-    </form> 
+        </fieldset>
+    </form>   
