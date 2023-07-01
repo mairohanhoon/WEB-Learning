@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="name">Name: <br></label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email: <br></label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="phone">Phone: <br></label>
+        <input type="tel" name="phone_number" id="phone">
+        <br>
+        <label for="resume">Resume: <br></label>
+        <input type="file" name="resume" id="resume">
+        <br>
+        <label for="experience">Experience(years): <br></label>
+        <input type="number" name="experience" id="experience" min="0" max="50">
+        <br>
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="skills" id="html">
+            <br>
+            <label for="html">HTML <br></label>
+            <input type="checkbox" name="skills" id="css">
+            <br>
+            <label for="html">CSS <br></label>
+            <input type="checkbox" name="skills" id="javascript">
+            <br>
+            <label for="html">JavaScript<br></label>
+        </fieldset>
+        <label for="education">Highest Education: <br></label>
+        <select name="education" id="education">
+            <option value="highschoool">High School</option>
+            <option value="undergrad">Under Graduation</option>
+            <option value="postgrad">Post Graduation</option>
+        </select><br>
+        <label for="avalibility">Avalibility: <br></label>
+        <input type="radio" name="avalibility" id="fulltime"><br>
+        <label for="fulltime">Full-Time <br></label>
+
+        <input type="radio" name="avalibility" id="partime"><br>
+        <label for="partime">Part-Time <br></label>
+
+        <label for="Comments">Additional Comments: <br></label>
+        <textarea name="Comments" id="Comments" cols="70" rows="5"></textarea>
+        <button>Submit Application</button>
+    </form>
+</body>
+</html>
