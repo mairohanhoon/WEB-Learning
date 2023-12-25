@@ -17,7 +17,7 @@ const regularUser = {
             firstname: "rohan",
             lastname: "tiwari"
         }
-    }  
+    }   
 }
 
 console.log(regularUser.fullname.userfullname.firstname);
@@ -61,6 +61,7 @@ const user = [
 // console.log(Object.keys(tindleUser));
 
 // console.log(Object.values(tindleUser));
+//returns a array of values or keys
 // console.log(Object.entries(tindleUser));
 
 // console.log(tindleUser.hasOwnProperty('isLoggedIn'));
@@ -80,6 +81,7 @@ const {courseInstructur} = course
 console.log(courseInstructur);
 
 const {courseInstructur: instructur} = course
+// this is know as destructuring of objects
 
 console.log(instructur);
 
@@ -89,4 +91,4 @@ console.log(instructur);
 //     "price": "Free",
 // }
 
- 
+ 4:34:00

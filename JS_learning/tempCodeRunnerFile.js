@@ -1,1 +1,1 @@
-Object.freeze(JsUser)
+console.log(website);
