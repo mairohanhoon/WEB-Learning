@@ -1,1 +1,1 @@
-console.log(website);
+user.welcomeMessage()

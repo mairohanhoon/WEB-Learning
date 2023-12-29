@@ -107,4 +107,4 @@ function returnSecondValue(getArray){
 console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 100, 600]));
 
-// 5:05:10 last seen till here
+// 5:05:10 last seen till here  
