@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    Bhai tera ganda elaka sa
+    <div id="sample"></div>
+</body>
+<script>
+    fetch('https://api.github.com/users/mairohanhoon')
+        .then(response => response.json())
+        .then(obj =>{
+            document.getElementById('sample').innerHTML = `<h1>${obj.name}</h1> 
+                <h3>Number of followers of ${obj.name} is ${obj.followers}</h3>
+                <p>${obj.bio}</p>
+                <img src="${obj.avatar_url}">`
+            console.log(obj.name);
+            console.log(`Number of followers of ${obj.name} is ${obj.followers}`);
+            console.log(obj.bio);
+        })
+        .catch(error => console.error('Error:', error));
+
+
+</script>
+</html>
+
+
+
+<div class="group bg-white mx-4 p-3 items-center rounded-2xl my-2 myscale">
+    <div>
+        <img class="w-16 rounded-xl" src="https://raw.githubusercontent.com/mairohanhoon/My_Profile_Website/main/asset/onCampus.png" alt="">
+    </div>
+    <div>
+        <h1 class="text-center text-yellow-400 font-bold font-sans">onCampus</h1>
+    </div>
+</div>  
