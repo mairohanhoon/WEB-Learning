@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "husky": "^4.3.8"
+  },
+  "dependencies": {
+    "vite": "^6.2.3"
   }
 }
