@@ -10,7 +10,7 @@ const HomePage = () => {
   useEffect(() => {
     setLoggedInUser(localStorage.getItem("loggedInUser"));
     fetchProducts()
-  }, []);
+  }, []); 
 
   const handgleLogout = () => {
     localStorage.removeItem("token");
