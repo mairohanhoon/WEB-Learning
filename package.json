@@ -3,6 +3,7 @@
     "husky": "^4.3.8"
   },
   "dependencies": {
+    "init": "^0.1.2",
     "vite": "^6.2.3"
   }
 }
